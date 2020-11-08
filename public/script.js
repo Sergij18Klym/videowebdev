@@ -15,8 +15,8 @@ const myPeer = new Peer(undefined, {
 const myPeer = new Peer(undefined, {
   secure: true, 
   host: 'videowebdev.herokuapp.com',
-  port: '3000' /*'3000',
-  path: '/peerjs'*/
+  port: '3000',
+  path: '/peerjs'
 })
 
 //const { PeerServer } = require('peer');
