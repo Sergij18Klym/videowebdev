@@ -15,7 +15,7 @@ const myPeer = new Peer(undefined, {
 const myPeer = new Peer(undefined, {
   secure: true, 
   host: 'videowebdev.herokuapp.com',
-  port: '443' /*'3000',
+  port: '3000' /*'3000',
   path: '/peerjs'*/
 })
 
