@@ -1,6 +1,6 @@
 ﻿const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
-const myPeer = new Peer("hi", {
+const myPeer = new Peer(undefined, {
   secure: true,
   host: 'videowebchatpeerjs.herokuapp.com',
   port: 443
