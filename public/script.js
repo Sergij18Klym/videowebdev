@@ -1,26 +1,9 @@
 ﻿const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
-/*const myPeer = new Peer(undefined, {
+const myPeer = new Peer(undefined, {
   host: '/',
   port: '3001'
-})*/
-
-/*
-const myPeer = new Peer(undefined, {
-  host: '/',
-  port: '3000',
-  path: '/peerjs'
-})*/
-
-const myPeer = new Peer(undefined, {
-  secure: true, 
-  host: 'videowebdev.herokuapp.com',
-  port: '3001',
-  path: '/peerjs'
 })
-
-//const { PeerServer } = require('peer');
-//const myPeer = Peer({ port: 3001, path: '/videochat7-webdevsimplified' });
 
 const myVideo = document.createElement('video')
 myVideo.muted = true
